@@ -1,5 +1,5 @@
 # Consensus
-Implementation of two BFT consensus protocols: Dory, Dory-NG, sDumbo and Dumbo-NG.
+Implementation of four BFT consensus protocols: Dory, Dory-NG, sDumbo and Dumbo-NG.
 
 ### LICENSE
 
