@@ -1,5 +1,5 @@
 # Consensus
-Implementation of two BFT consensus protocols: [Dory](https://eprint.iacr.org/2022/1709) and sDumbo.
+Implementation of two BFT consensus protocols: Dory, Dory-NG, sDumbo and Dumbo-NG.
 
 ### LICENSE
 
