@@ -22,7 +22,7 @@ import (
 	"google.golang.org/protobuf/proto"
 )
 
-//MAXMESSAGE is the size of channels
+// MAXMESSAGE is the size of channels
 var MAXMESSAGE = 1024
 
 func MainProgress(p *party.HonestParty, inputChannel chan []byte, outputChannel chan []byte) {
