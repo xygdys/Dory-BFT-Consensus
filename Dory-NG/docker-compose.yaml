@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  main_build:
+    build: .
+    volumes:
+      - ./:/Dory-NG
+    working_dir: /Dory-NG
+    command: make build
+  config_build:
+    build: .
+    volumes:
+      - ./:/Dory-NG
+    working_dir: /Dory-NG
+    command: make config
+

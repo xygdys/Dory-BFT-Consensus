@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  main_build:
+    build: .
+    volumes:
+      - ./:/sDumbo
+    working_dir: /sDumbo
+    command: make build
+  config_build:
+    build: .
+    volumes:
+      - ./:/sDumbo
+    working_dir: /sDumbo
+    command: make config
+

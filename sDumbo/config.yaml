@@ -1,0 +1,16 @@
+N: 4
+F: 1
+IPList:
+- 3.228.13.64
+- 18.222.155.245
+- 15.207.248.218
+- 18.142.159.69
+PID: 0
+PortList:
+- 2021
+- 2021
+- 2021
+- 2021
+PrepareTime: 120
+Statistic: ./statistics
+WaitTime: 120

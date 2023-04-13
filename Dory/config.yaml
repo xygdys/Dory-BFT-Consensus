@@ -1,0 +1,16 @@
+F: 1
+IPList:
+- 44.200.209.9
+- 18.222.240.184
+- 3.110.194.28
+- 13.212.163.202
+N: 4
+PortList:
+- 2021
+- 2021
+- 2021
+- 2021
+PrepareTime: 120
+Statistic: ./statistics
+TestEpochs: 10
+WaitTime: 120
