@@ -1,5 +1,0 @@
-FROM golang:1.18-buster
-ENV GOPROXY https://goproxy.cn
-WORKDIR ./Dumbo-NG
-COPY . .
-RUN go mod download
